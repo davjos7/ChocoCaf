@@ -118,5 +118,18 @@ div .caja_text_bienvenido{
     width: 21px;
     margin-left: 30px;
 }
+.productos_titulo{
+    text-align: center;
+    margin-top: 300px;
+    font-family: 'Oleo Script';
+    margin-bottom: 100px;
+    color: #c66300;
+}
+
+footer{
+    background: chocolate;
+    margin: auto;
+    width: 100%;
+}
 
     
