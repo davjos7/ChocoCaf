@@ -9,6 +9,7 @@
  
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1869/1869019.png">
     
 <link rel="stylesheet" href="stylo.css">
@@ -31,11 +32,14 @@
         </div>
     </div>
    </header>
-   <div class="col-md-12">
+   <div class="col-md-12 single-item">
     <img class="fondos_portada" src="choco.jpg" alt="">
+    <img class="fondos_portada" src="imgbanner2.jpg" alt="">
+    <img class="fondos_portada" src="imgbanner3.jpg" alt="">
+    <img class="fondos_portada" src="imgbanner4.jpg" alt="">
 
    </div>
-    
+  
         
 
 <div class="container">
@@ -99,5 +103,21 @@
                 </div>
             </div>  
         </footer>
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        
+        <script>
+            $('.single-item').slick({   
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots:false,
+                arrows:true,
+            });
+        </script>
+
+        
 </body>
-</html>
+</html> 
