@@ -131,5 +131,47 @@ footer{
     margin: auto;
     width: 100%;
 }
+.contactos_pie_text{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 56px;
+    font-family: 'Cardo';
+    font-weight: 600;
+    color: white;
+}
 
+.telefono_caja h3{
+    padding-left: 50px;
+    padding-bottom: 22px;
+    font-family: 'Oleo Script';
+    font-size: 40px;
+}
+.telefono_caja h5{
+    padding-left: 10px;
+    font-size: 23px;
+    font-family: fantasy;
+    padding-bottom: 75px;
+}
+.redes_sociales_caja h3{
+    text-align: center;
+    font-family: 'Oleo Script';
+    font-size: 40px;
+    padding-bottom: 22px;
+}
+.redes_sociales_caja li{
+    display: inline-block;
+    padding-left: 50px;
+}
+.ubicanos_caja h3 {
+    padding-left: 133px;
+    font-size: 40px;
+    font-family: 'Oleo Script';
+    padding-bottom: 22px;
+}
+.ubicanos_caja h5{
+    text-align: center;
+    padding-left: 21px;
+    font-family: fantasy;
+    font-size: 23px;
+}
     
