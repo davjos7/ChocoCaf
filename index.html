@@ -32,13 +32,17 @@
         </div>
     </div>
    </header>
-   <div class="col-md-12 single-item">
-    <img class="fondos_portada" src="choco.jpg" alt="">
-    <img class="fondos_portada" src="imgbanner2.jpg" alt="">
-    <img class="fondos_portada" src="imgbanner3.jpg" alt="">
-    <img class="fondos_portada" src="imgbanner4.jpg" alt="">
+   <br>
+   <br>
+   <div class="col-md-12 caja_slyder">
+        <div class="autoplay">
+        <img class="fondos_portada" src="choco.jpg" alt="">
+        <img class="fondos_portada" src="imgbanner2.jpg" alt="">
+        <img class="fondos_portada" src="imgbanner3.jpg" alt="">
+        <img class="fondos_portada" src="imgbanner4.jpg" alt="">
 
-   </div>
+    </div>
+    </div>
   
         
 
@@ -108,13 +112,16 @@
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         
         <script>
-            $('.single-item').slick({   
+           $('.autoplay').slick({
+	   
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 2000,
-                dots:false,
-                arrows:true,
+                arrows:false,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
             });
         </script>
 

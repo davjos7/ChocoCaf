@@ -23,11 +23,11 @@ header{
     width:100%;
     background: white;
     height: 100px;
+    z-index: 9;
 }
 .fondos_portada{
     width: 100%;
     height: 800px;
-    opacity: value;
     
 }
 div{
@@ -72,9 +72,7 @@ div .caja_text_bienvenido{
 .caja_img_welcome{
     margin-top: 100px;
 }
-.row{
-    margin-left: 110px;
-}
+
 .mini_bio_bienvenido{
     font-size: 35px;
     font-family: 'Palanquin', sans-serif;
@@ -96,7 +94,6 @@ div .caja_text_bienvenido{
     font-size: 13px;
     padding-left: 25px;
     letter-spacing:2px;
-    
 }
 
 .boton_mas_nosotros{
@@ -174,4 +171,6 @@ footer{
     font-family: fantasy;
     font-size: 23px;
 }
-    
+.caja_slyder{
+    margin-top: 50px;
+}  
