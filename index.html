@@ -35,12 +35,12 @@
    </header>
    <br>
    <br>
-   <div class="col-md-12 caja_slyder">
-        <div class="autoplay">
-        <img class="fondos_portada" src="choco.jpg" alt="">
-        <img class="fondos_portada" src="imgbanner2.jpg" alt="">
-        <img class="fondos_portada" src="imgbanner3.jpg" alt="">
-        <img class="fondos_portada" src="imgbanner4.jpg" alt="">
+   
+   <div class="parallax-window caja_slyder" data-parallax="scroll" data-image-src="choco.jpg">
+    <h1>ChocoCáf</h1>
+    <h5>CHOCOLATE - CAFÉ</h5>
+
+       
 
     </div>
     </div>
@@ -220,8 +220,13 @@
             </div>  
         </footer>
 
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+        
+        
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+       
         <script src="carusel.js"></script>
         <script>
            $('.autoplay').slick({

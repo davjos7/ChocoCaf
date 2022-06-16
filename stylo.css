@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 .menu{
     display: inline-block;
     margin-top: 30px;
@@ -33,13 +34,35 @@ header{
     top: 0;
     width:100%;
     background: white;
-    height: 100px;
+    height: 98px;
     z-index: 9;
 }
 .fondos_portada{
     width: 100%;
     height: 800px;
     
+}
+
+.parallax-window{
+	min-height: 830px;
+	background: transparent;
+}
+.caja_slyder h1{
+    text-align: center;
+    font-size: 140px;
+    color: white;
+    padding-top: 225px;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: 900;
+}
+.caja_slyder h5{
+    text-align: center;
+    font-size: 50px;
+    color: #f17a00;
+    padding-top: 35px;
+    letter-spacing: 11px;
+    padding-left: 18px;
+    font-weight: 700;
 }
 div{
     display: block;
@@ -255,6 +278,7 @@ footer{
 .wrapper .container .bottom .left .details .txt_products{
     font-size: 25px;
 }
+
 
 .wrapper .container .bottom .left .buy{
     float: right;
