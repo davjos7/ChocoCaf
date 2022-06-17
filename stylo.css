@@ -9,7 +9,7 @@
     margin-right: 80px;
 }
 .cabezera a{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -20,7 +20,7 @@
     color: #c66300;
 }
 .cabezera a{
-    transition: color 0.2s linear 0.2s; 
+    transition: all .2s linear;
 }
 .cabezera{
     width: 100%;
@@ -79,12 +79,24 @@ div{
     ;
 }
 .contacto_boton{
-    background: greenyellow;
+    background: #f17a00;
     border-radius: 50px;
-    border-color: greenyellow;
     width: 150px;
     height: 40px;
+    border: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
 }
+.contacto_boton:hover{
+    color: black;
+
+}
+.contacto_boton{
+    transition: all .2s linear;
+}
+
+
 .img_welcome{
     border-radius: 35px;
     margin-left: 150px;
