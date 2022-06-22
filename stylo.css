@@ -12,7 +12,7 @@
     padding-left: 244px;
 }
 .logo_menu_chiquito{
-    margin-left: 338px;
+    margin-left: 160px;
 }
 .elemento_menu{
     font-size: 15px;
@@ -44,7 +44,7 @@ header{
 }
 .parallax-window {
     min-height: 830px;
-    background: rgb(0 0 0 / 60%) !important;
+    background: rgb(0 0 0 / 40%) !important;
 }
 
 .parallax-window{
@@ -58,6 +58,9 @@ header{
     padding-top: 225px;
     font-family: 'Berkshire Swash', cursive;
     font-weight: 900;
+}
+#porta_contac{
+    font-size: 100px;
 }
 .caja_slyder h5{
     text-align: center;
@@ -420,3 +423,6 @@ footer{
     transition: 1s;
     transition-delay: 0.75s;
 }
+
+/*PRODUCTOS*/
+
