@@ -481,6 +481,7 @@ footer{
 }
 .cafe_text2 p{
     padding-right: 4%;
+    font-size: 20px;
 }
 
 .chocolate_text2{
@@ -494,26 +495,37 @@ footer{
 }
 .chocolate_text2 p{
     padding-right: 30%;
+    font-size: 20px;
 }
 .cafe_text2 h5{
     font-size: 40px;
     padding-bottom: 20px;
+    font-weight: 600;
 }
 .cafe_text h5{
     font-size: 40px;
     padding-bottom: 20px;
+    font-weight: 600;
 }
 .chocolate_text2 h5{
     font-size: 40px;
     padding-bottom: 20px;
+    font-weight: 600;
 }
 .chocolate_text h5{
     font-size: 40px;
     padding-bottom: 20px;
+    font-weight: 600;
 }
 .cafe_text h6{
     font-size: 25px;
 }
 .chocolate_text h6{
     font-size: 25px;
+}
+.chocolate_text p{
+    font-size: 20px;
+}
+.cafe_text P{
+    font-size: 20px;
 }
