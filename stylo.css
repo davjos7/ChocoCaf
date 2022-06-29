@@ -529,3 +529,19 @@ footer{
 .cafe_text P{
     font-size: 20px;
 }
+.pedir_wsp{
+    border: 2px solid #c66300;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+    background: lightgreen;
+    font-family: 'Oleo Script';
+    font-weight: 900;
+    box-shadow: 0px 0px 10px #c66300;
+    border-radius: 7px;
+}
+@media screen and (max-width:920px){
+    
+}
