@@ -661,4 +661,58 @@ footer{
     footer{
         margin-top: 15%;
     }
+    .telefono_caja h5 {
+        margin-left: -42%;
+        font-size: 19px;
+    }
+    .telefono_caja h3{  
+        margin-left: -42%;
+        font-size: 30px;
+    }
+    .redes_sociales_caja h3 {
+        font-size: 28px;
+    }
+    .redes_sociales_caja ul {
+        margin-left: -27%;
+    }
+    .ubicanos_caja h3 {
+        font-size: 30px;
+    }
+    .ubicanos_caja h5 {
+        margin-right: -13%;
+    }
+}
+@media screen and (max-width:668px) {
+    .telefono_caja h3 {
+        margin-left: 100%;
+        font-size: 37px;
+    }
+    .redes_sociales_caja h3 {
+        font-size: 35px;
+        margin-top: 103%;
+        margin-right: -23%;
+        margin-left: -14%;
+    }
+    .redes_sociales_caja ul {
+        margin-left: -18%;
+    }
+    .ubicanos_caja h3 {
+        font-size: 37px;
+        margin-top: 210%;
+        margin-left: -134%;
+        margin-right: 115%;
+    }
+    .ubicanos_caja h5 {
+        margin-right: 116%;
+        margin-left: -114%;
+    }
+    .telefono_caja h5 {
+        margin-left: 113%;
+        font-size: 20px;
+        margin-right: -130%;
+    }
+    .caja_slyder h1 {
+        font-size: 105px;  
+    }
+    
 }
