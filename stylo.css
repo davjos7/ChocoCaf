@@ -627,7 +627,7 @@ footer{
         margin-right: 25%;
 }
 }
-@media screen and (max-width:767px) and (min-width:668px) {
+@media screen and (max-width:767px) {
     .chocolate_img, .cafe_img{
         margin-right: 22%;
     }
@@ -715,6 +715,21 @@ footer{
     }
     .caja_slyder h1 {
         font-size: 105px;  
+    }
+    .chocolate_text h5, .cafe_text h5 {
+        font-size: 35px;
+    }
+    .chocolate_text h6, .chocolate_text p, .pedir_wsp, .cafe_text h6, .cafe_text p {
+        text-align: left;
+    }
+   
+}
+@media screen and (max-width:530px) {
+    #espacio_img_producto {
+        margin-top: -115%;
+    }
+    .caja_slyder h1 {
+        font-size: 90px;
     }
     
 }
