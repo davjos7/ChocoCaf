@@ -627,7 +627,7 @@ footer{
         margin-right: 25%;
 }
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:767px) and (min-width:668px) {
     .chocolate_img, .cafe_img{
         margin-right: 22%;
     }
@@ -662,54 +662,56 @@ footer{
         margin-top: 15%;
     }
     .telefono_caja h5 {
-        margin-left: -42%;
-        font-size: 19px;
+        text-align: center;
     }
     .telefono_caja h3{  
-        margin-left: -42%;
-        font-size: 30px;
+        text-align: center;
     }
     .redes_sociales_caja h3 {
-        font-size: 28px;
+        font-size: 32px;
     }
     .redes_sociales_caja ul {
-        margin-left: -27%;
+        text-align: center;
     }
     .ubicanos_caja h3 {
         font-size: 30px;
+        text-align: center;
+        padding-right: 22%;
+        margin-top: 10%;
     }
     .ubicanos_caja h5 {
-        margin-right: -13%;
-    }
+        text-align: center;
+        padding-right: 12%;
+    }   
 }
 @media screen and (max-width:668px) {
     .telefono_caja h3 {
-        margin-left: 100%;
+        text-align: center;
         font-size: 37px;
     }
     .redes_sociales_caja h3 {
         font-size: 35px;
-        margin-top: 103%;
-        margin-right: -23%;
-        margin-left: -14%;
+        margin-top: 10%;
+       text-align: center;
     }
     .redes_sociales_caja ul {
-        margin-left: -18%;
+       text-align: center;
     }
     .ubicanos_caja h3 {
         font-size: 37px;
-        margin-top: 210%;
-        margin-left: -134%;
-        margin-right: 115%;
+        margin-top: 10%;
+       text-align: center;
+       padding-right: 26%;
     }
     .ubicanos_caja h5 {
-        margin-right: 116%;
-        margin-left: -114%;
+        text-align: center;
+        padding-right: 17%;
+        margin-bottom: 12%;
     }
     .telefono_caja h5 {
-        margin-left: 113%;
+        
         font-size: 20px;
-        margin-right: -130%;
+        text-align: center;
     }
     .caja_slyder h1 {
         font-size: 105px;  
