@@ -733,7 +733,7 @@ footer{
     }
     
 }
-@media screen and (max-width:390px) {
+@media screen and (max-width:400px),(min-width:390px){
     .logo_menu_chiquito {
         margin-left: 0%;
         width: 100px;
@@ -776,5 +776,10 @@ footer{
     #caf2 {
         margin-top: 126%;
         margin-left: 0%;
+    }
+    .elemento_menu {
+        font-size: 17px;
+        margin-left: -65%;
+        padding-left: 0%;
     }
 }
