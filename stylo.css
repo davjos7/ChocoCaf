@@ -733,3 +733,48 @@ footer{
     }
     
 }
+@media screen and (max-width:390px) {
+    .logo_menu_chiquito {
+        margin-left: 0%;
+        width: 100px;
+    }
+    .caja_slyder h1 {
+        font-size: 74px;
+    }
+    .tituloproducto_choco h1 {
+        font-size: 40px; 
+    }
+    .chocolate_img, .cafe_img {
+        margin-right: 8%;
+    }
+    .chocolate_text h5, .cafe_text h5 {
+        font-size: 30px;
+        margin-left: 15%;
+    }
+    .chocolate_text h6, .chocolate_text p, .pedir_wsp, .cafe_text h6, .cafe_text p {
+        margin-left: 15%;
+    }
+    #chocoimg2{
+        margin-right: 8%;
+        margin-top: -124%;
+    }
+    .chocolate_text2 h5, .cafe_text2 h5 {
+        margin-left: 0%;
+        margin-top: 86%;
+    }
+    .chocolate_text2 h6, .chocolate_text2 p, .cafe_text2 h6, .cafe_text2 p, #wspboton2 {
+        margin-left: 0%;
+    }
+    .tituloproducto_cafe h1 {
+        font-size: 45px;
+        margin-top: 30%;
+    }
+    #espacio_img_producto {
+        margin-top: -155%;
+        margin-right: 10%;
+    }
+    #caf2 {
+        margin-top: 126%;
+        margin-left: 0%;
+    }
+}
