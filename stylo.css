@@ -733,7 +733,46 @@ footer{
     }
     
 }
-@media screen and (max-width:400px),(min-width:390px){
+@media screen and (max-width:414px){
+    .tituloproducto_choco h1 {
+        font-size: 40px; 
+    }
+    .chocolate_img, .cafe_img {
+        margin-right: 13%;
+    }
+    .chocolate_text h5, .cafe_text h5 {
+        margin-left: 13%;
+    }
+    #chocoimg2{
+        margin-right: 13%;
+        margin-top: -108%;
+    }
+    .chocolate_text2 h5, .cafe_text2 h5 {
+        margin-left: 5%;
+        margin-top: 70%;
+    }
+    .tituloproducto_cafe h1 {
+        margin-top: 30%;
+        font-size: 50px;
+    }
+    #espacio_img_producto {
+        margin-top: -135%;
+        margin-right: 13%;
+    }
+    #caf2 {
+        margin-top: 110%;
+        margin-left: 0%;
+    }
+    .elemento_menu {
+        font-size: 16px;
+        padding-right: 46%;
+        margin-left: -16%;
+    }
+
+    
+}
+
+@media screen and (max-width:390px){
     .logo_menu_chiquito {
         margin-left: 0%;
         width: 100px;
