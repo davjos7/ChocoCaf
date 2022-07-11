@@ -822,3 +822,23 @@ footer{
         padding-left: 0%;
     }
 }
+
+/*INDEX*/
+@media screen and (max-width:1199px) {
+    .text_bienvenido{
+        margin-right: 18%;
+        margin-left: -66%;
+    }
+    .mini_bio_bienvenido{
+        margin-left: -66%;
+        margin-right: 27%;
+    }
+    .mini_bio_bienvenido_2{
+        margin-left: -65%;
+        margin-right: 30%;
+    }
+    .btn-neon{
+        margin-left: -60%;
+    }
+    
+}
