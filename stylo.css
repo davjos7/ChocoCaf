@@ -1,844 +1,622 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+ @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+ *{
+     margin: 0;
+     padding: 0;
 }
 /*CABEZERA*/
-
-.ul_cabecera{
-    text-align: center;
-    margin: auto;
-    padding-left: 244px;
+ .ul_cabecera{
+     text-align: center;
+     margin: auto;
+     padding-left: 244px;
 }
-.logo_menu_chiquito{
-    margin-left: 160px;
+ .logo_menu_chiquito{
+     margin-left: 160px;
 }
-.elemento_menu{
-    font-size: 15px;
-    padding-left: 30px;
-    
+ .elemento_menu{
+     font-size: 15px;
+     padding-left: 30px;
 }
-.elemento_menu a{
-    transition: all .2s linear;
-    font-family: -webkit-body;
-    font-weight: 900;
-    color: black;
+ .elemento_menu a{
+     transition: all .2s linear;
+     font-family: -webkit-body;
+     font-weight: 900;
+     color: black;
 }
-.elemento_menu a:hover{
-    color: #c66300;
+ header{
+     position: fixed;
+     top: 0;
+     width:100%;
+     background: white;
+     height: 98px;
+     z-index: 9;
 }
-header{
-    position: fixed;
-    top: 0;
-    width:100%;
-    background: white;
-    height: 98px;
-    z-index: 9;
+ .fondos_portada{
+     width: 100%;
+     height: 800px;
 }
-
-.fondos_portada{
-    width: 100%;
-    height: 800px;
-    
+ .parallax-window {
+     min-height: 830px;
+     background: rgb(0 0 0 / 40%) !important;
 }
-.parallax-window {
-    min-height: 830px;
-    background: rgb(0 0 0 / 40%) !important;
+ .contactos{
+     background: #f17a00;
+     border-radius: 20px;
 }
-
-.parallax-window{
-	min-height: 830px;
-	background: transparent;
+ .parallax-window{
+     min-height: 830px;
+     background: transparent;
 }
-.caja_slyder h1{
-    text-align: center;
-    font-size: 140px;
-    color: white;
-    padding-top: 225px;
-    font-family: 'Berkshire Swash', cursive;
-    font-weight: 900;
+ .caja_slyder h1{
+     text-align: center;
+     font-size: 140px;
+     color: white;
+     padding-top: 225px;
+     font-family: 'Berkshire Swash', cursive;
+     font-weight: 900;
 }
-#porta_contac{
-    font-size: 100px;
-}
-.caja_slyder h5{
-    text-align: center;
-    font-size: 50px;
-    color: #f17a00;
-    padding-top: 35px;
-    letter-spacing: 11px;
-    padding-left: 18px;
-    font-weight: 700;
-}
-div{
-    display: block;
-}
-.imagenes{
-    width: 10px;
-}
-.productos{
-    width: 300px;
-}
-.logito{
-    margin-top: 20px;
-    margin-left: 20px;
-    ;
+ #porta_contac{
+     font-size: 100px;
 }
 
-.img_welcome{
-    border-radius: 35px;
-    margin-left: 150px;
-    box-shadow: 0px 0px 36px 20px #6c381e;
-    width: 360px;
+ .img-fixed {
+     height: 200px;
+     object-fit: cover;
 }
-.text_bienvenido{
-    font-family: 'Oleo Script', cursive;
-    font-size: 55px;
-    font-weight: 900;
-    color: #c66300;
+ .navbar-collapse.show .navbar-nav {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
 }
-div .caja_text_bienvenido{
-    text-align: left;
-    padding-left: 180px;
+ .caja_slyder h5{
+     text-align: center;
+     font-size: 50px;
+     color: #f17a00;
+     padding-top: 35px;
+     letter-spacing: 11px;
+     padding-left: 18px;
+     font-weight: 700;
 }
-.caja_text_bienvenido{
-    margin-top: 100px;
+ div{
+     display: block;
 }
-.caja_img_welcome{
-    margin-top: 100px;
+ .imagenes{
+     width: 10px;
 }
-
-.mini_bio_bienvenido{
-    font-size: 35px;
-    font-family: 'Palanquin', sans-serif;
-    font-weight: 700;
-    padding-top: 20px;
-    
+ .productos{
+     width: 300px;
 }
-.mini_bio_bienvenido_2{
-    font-family: 'Cardo', serif;
-    font-size: 13px;
-    font-weight: 700;
-    padding-top: 20px;
+ .logito{
+     margin-top: 20px;
+     margin-left: 20px;
+     ;
 }
-.mas_de_nosotros_boton_de_bienvenido{
-    text-align: center;
-    color: white;
-    font-family: 'Jura', sans-serif;
-    padding-top: 8px;
-    font-size: 13px;
-    padding-left: 25px;
-    letter-spacing:2px;
+ .img_welcome{
+     border-radius: 35px;
+     box-shadow: 0px 0px 36px 5px #6c381e;
+     width: 360px;
 }
-
-.boton_mas_nosotros{
-    margin-left: 1px;
-    border-radius: 20px;
-    width: 265px;
-    height: 41px;
-    margin-top: 33px;
-    background: #232323;
-    box-shadow: 0px 0px 11px 0px #c66300;
-    
+ .text_bienvenido{
+     font-family: 'Oleo Script', cursive;
+     font-size: 55px;
+     font-weight: 900;
+     color: #c66300;
 }
-.boton_mas_nosotros:hover{
-  transition: all 1.5s;
-  margin-left: 30px;
-  background: orange;
+ .caja_text_bienvenido{
+     margin-top: 100px;
 }
-.flechita{
-    width: 21px;
-    margin-left: 30px;
+ .mini_bio_bienvenido{
+     font-size: 35px;
+     font-family: 'Palanquin', sans-serif;
+     font-weight: 700;
+     padding-top: 20px;
 }
-.productos_titulo{
-    text-align: center;
-    margin-top: 240px;
-    font-family: 'Oleo Script';
-    color: #c66300;
-    margin-bottom: 80px;
+ .mini_bio_bienvenido_2{
+     font-family: 'Cardo', serif;
+     font-size: 13px;
+     font-weight: 700;
+     padding-top: 20px;
 }
-
-footer{
-    background: chocolate;
-    margin: auto;
-    width: 100%;
-    
+ .mas_de_nosotros_boton_de_bienvenido{
+     text-align: center;
+     color: white;
+     font-family: 'Jura', sans-serif;
+     padding-top: 8px;
+     font-size: 13px;
+     letter-spacing:2px;
 }
-.contactos_pie_text{
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 56px;
-    font-family: 'Cardo';
-    font-weight: 600;
-    color: white;
+ .boton_mas_nosotros{
+     margin-left: 1px;
+     border-radius: 20px;
+     width: 265px;
+     height: 41px;
+     margin-top: 33px;
+     background: #232323;
+     box-shadow: 0px 0px 11px 0px #c66300;
 }
-
-.telefono_caja h3{
-    padding-left: 50px;
-    padding-bottom: 22px;
-    font-family: 'Oleo Script';
-    font-size: 40px;
+ .boton_mas_nosotros:hover{
+     transition: all 1.5s;
+     margin-left: 30px;
+     background: orange;
 }
-.telefono_caja h5{
-    padding-left: 5%;
-    font-size: 23px;
-    font-family: fantasy;
-    padding-bottom: 12%;
+ .flechita{
+     width: 21px;
+     margin-left: 30px;
 }
-.redes_sociales_caja h3{
-    text-align: center;
-    font-family: 'Oleo Script';
-    font-size: 40px;
-    padding-bottom: 22px;
+ .productos_titulo{
+     text-align: center;
+     margin-top: 240px;
+     font-family: 'Oleo Script';
+     color: #c66300;
+     margin-bottom: 80px;
 }
-.redes_sociales_caja ul{
-    margin-left: 12%;
+ footer{
+     background: chocolate;
+     margin: auto;
+     width: 100%;
 }
-.redes_sociales_caja li{
-    display: inline-block;
-    padding-left: 10%;
+ .contactos_pie_text{
+     text-align: center;
+     margin-top: 70px;
+     margin-bottom: 56px;
+     font-family: 'Cardo';
+     font-weight: 600;
+     color: white;
 }
-.ubicanos_caja h3 {
-    padding-left: 133px;
-    font-size: 40px;
-    font-family: 'Oleo Script';
-    padding-bottom: 22px;
+ .telefono_caja h3{
+     padding-left: 50px;
+     padding-bottom: 22px;
+     font-family: 'Oleo Script';
+     font-size: 40px;
 }
-.ubicanos_caja h5{
-    text-align: center;
-    font-family: fantasy;
-    font-size: 23px;
+ .telefono_caja h5{
+     padding-left: 5%;
+     font-size: 23px;
+     font-family: fantasy;
+     padding-bottom: 12%;
 }
-.caja_slyder{
-    margin-top: 50px;
-} 
-
-.text{
-    text-align: center;
-    justify-content: center;
+ .redes_sociales_caja h3{
+     text-align: center;
+     font-family: 'Oleo Script';
+     font-size: 40px;
+     padding-bottom: 22px;
 }
-.text h1{
-    margin-top:35px;
-    color: white;
+ .redes_sociales_caja ul{
+     margin-left: 12%;
 }
-.products_body{
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    position: sticky;
-    
+ .redes_sociales_caja li{
+     display: inline-block;
+     padding-left: 10%;
 }
-.wrapper{
-    width: 450px;
-    height:500px;
-    background: transparent;
-    margin: auto;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px 10px 10px 10px;
-    transform: scale(0.93);
-    transition: box-shadow 0.5s, transform 0.5s;
-    z-index: 1000;
-    margin-bottom: 100px;
+ .ubicanos_caja h3 {
+     padding-left: 133px;
+     font-size: 40px;
+     font-family: 'Oleo Script';
+     padding-bottom: 22px;
 }
-.wrapper:hover{
-    transform: scale(1);
-    box-shadow: 5px 20px 30px rgba(0,0,0,0.2);
+ .ubicanos_caja h5{
+     text-align: center;
+     font-family: fantasy;
+     font-size: 23px;
 }
-
-.wrapper .container{
-    width: 100%;
-    height: 100%;
-    
+ .caja_slyder{
+     margin-top: 50px;
 }
-
-.wrapper .container .top{
-    height: 80%;
-    width: 100%;
-    background-size: 100%;
+ .text{
+     text-align: center;
+     justify-content: center;
 }
-.wrapper .container .bottom{
-    width: 100%;
-    height: 20%;
-    transition: transform 0.5s;
+ .text h1{
+     margin-top:35px;
+     color: white;
 }
-
-.wrapper .container .bottom .left{
-    height: 100%;
-    width: 100%;
-    background: #f4f4f4;
-    position: relative;
-    float: left;
+ .products_body{
+     background: transparent;
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     position: sticky;
 }
-
-.wrapper .container .bottom .left .details{
-    padding-left: 20px;
-    float: left;
-    width: calc(70% - 40px);
+ .wrapper{
+     width: 450px;
+     height:500px;
+     background: transparent;
+     margin: auto;
+     position: relative;
+     overflow: hidden;
+     border-radius: 10px 10px 10px 10px;
+     transform: scale(0.93);
+     transition: box-shadow 0.5s, transform 0.5s;
+     z-index: 1000;
+     margin-bottom: 100px;
 }
-
-.wrapper .container .bottom .left .details .txt_products{
-    font-size: 25px;
+ .wrapper:hover{
+     transform: scale(1);
+     box-shadow: 5px 20px 30px rgba(0,0,0,0.2);
 }
-
-
-.wrapper .container .bottom .left .buy{
-    float: right;
-    height: 100%;
-    background: #f1f1f1;
-    transition: background 0.5s;
-    border-left: solid thin rgba(0,0,0,0.1);
+ .wrapper .container{
+     width: 100%;
+     height: 100%;
 }
-.wrapper .container .bottom .left .buy i{
-    font-size: 30px;
-    padding: 30px;
-    color: #0781b6;
-    transition: transform 0.5s;
+ .wrapper .container .top{
+     height: 80%;
+     width: 100%;
+     background-size: 100%;
 }
-
-.wrapper .container .bottom .left .buy:hover i{
-    transform: rotate(360deg);
+ .wrapper .container .bottom{
+     width: 100%;
+     height: 20%;
+     transition: transform 0.5s;
 }
-
-.wrapper .inside{
-    z-index: 9;
-    background: #0781b6;
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    top: -70px;
-    right: -70px;
-    border-radius: 0px 0px 200px 200px;
-    transition: all 0.5s, border-radius 2s, top 1s;
-    overflow: hidden;
+ .wrapper .container .bottom .left{
+     height: 100%;
+     width: 100%;
+     background: #f4f4f4;
+     position: relative;
+     float: left;
 }
-
-.wrapper .inside .icon{
-    position: absolute;
-    right: 85px;
-    top: 85px;
-    color: white;
-    opacity: 1;
+ .wrapper .container .bottom .left .details{
+     padding-left: 20px;
+     float: left;
+     width: calc(70% - 40px);
 }
-
-.wrapper .inside:hover{
-    width: 100%;
-    right: 0;
-    top: 0;
-    border-radius: 0;
-    height: 80%;
+ .wrapper .container .bottom .left .details .txt_products{
+     font-size: 25px;
 }
-.wrapper .inside:hover .icon{
-    opacity: 0;
-    right: 15px;
-    top: 15px;
+ .wrapper .container .bottom .left .buy{
+     float: right;
+     height: 100%;
+     background: #f1f1f1;
+     transition: background 0.5s;
+     border-left: solid thin rgba(0,0,0,0.1);
 }
-.wrapper .inside:hover .contents{
-    opacity: 1;
-    transform: scale(1);
-    transform: translateY(0);
+ .wrapper .container .bottom .left .buy i{
+     font-size: 30px;
+     padding: 30px;
+     color: #0781b6;
+     transition: transform 0.5s;
 }
-
-.wrapper .inside .contents{
-    padding: 5%;
-    opacity: 0;
-    transform: scale(0.5);
-    transform: translateY(-200%);
-    transition: opacity 0.2s,transform 0.8s;
+ .wrapper .container .bottom .left .buy:hover i{
+     transform: rotate(360deg);
 }
-.wrapper .inside .contents h1,
-.wrapper .inside .contents p{
-    color: white;
+ .wrapper .inside{
+     z-index: 9;
+     background: #0781b6;
+     width: 140px;
+     height: 140px;
+     position: absolute;
+     top: -70px;
+     right: -70px;
+     border-radius: 0px 0px 200px 200px;
+     transition: all 0.5s, border-radius 2s, top 1s;
+     overflow: hidden;
 }
-
-.wrapper .inside .contents p{
-    font-size: 19px;
+ .wrapper .inside .icon{
+     position: absolute;
+     right: 85px;
+     top: 85px;
+     color: white;
+     opacity: 1;
 }
-
-.btn-neon{
-    position: relative;
-    display: inline-block;
-    padding: 10px 11px;
-    color: black;
-    letter-spacing: 3px;
-    text-decoration: none;
-    font-size: 20px;
-    overflow: hidden;
-    transition: 0.2s;
-    margin-top: 40px;
+ .wrapper .inside:hover{
+     width: 100%;
+     right: 0;
+     top: 0;
+     border-radius: 0;
+     height: 80%;
 }
-.btn-neon:hover{
-    background: #c66300;
-    box-shadow: 0 0 10px #c66300, 0 0 40px #c66300, 0 0 80px #c66300;
-    transition-delay: 1s;
- }
-.btn-neon span{
-    position: absolute;
-    display: block;
+ .wrapper .inside:hover .icon{
+     opacity: 0;
+     right: 15px;
+     top: 15px;
 }
-#span1{
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent,#c66300);
- }
+ .wrapper .inside:hover .contents{
+     opacity: 1;
+     transform: scale(1);
+     transform: translateY(0);
+}
+ .wrapper .inside .contents{
+     padding: 5%;
+     opacity: 0;
+     transform: scale(0.5);
+     transform: translateY(-200%);
+     transition: opacity 0.2s,transform 0.8s;
+}
+ .wrapper .inside .contents h1, .wrapper .inside .contents p{
+     color: white;
+}
+ .wrapper .inside .contents p{
+     font-size: 19px;
+}
+ .btn-neon{
+     position: relative;
+     display: inline-block;
+     padding: 10px 11px;
+     color: black;
+     letter-spacing: 3px;
+     text-decoration: none;
+     font-size: 20px;
+     overflow: hidden;
+     transition: 0.2s;
+     margin-top: 40px;
+}
+ .btn-neon:hover{
+     background: #c66300;
+     box-shadow: 0 0 10px #c66300, 0 0 40px #c66300, 0 0 80px #c66300;
+     transition-delay: 1s;
+}
+ .btn-neon span{
+     position: absolute;
+     display: block;
+}
+ #span1{
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(90deg, transparent,#c66300);
+}
  .btn-neon:hover #span1{
-    left: 100%;
-    transition: 1s;
+     left: 100%;
+     transition: 1s;
 }
  #span3{
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent,#c66300);
+     bottom: 0;
+     right: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(270deg, transparent,#c66300);
 }
  .btn-neon:hover #span3{
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
+     right: 100%;
+     transition: 1s;
+     transition-delay: 0.5s;
 }
-#span2{
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg,transparent,#c66300);
+ #span2{
+     top: -100%;
+     right: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(180deg,transparent,#c66300);
 }
-.btn-neon:hover #span2{
-    top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
+ .btn-neon:hover #span2{
+     top: 100%;
+     transition: 1s;
+     transition-delay: 0.25s;
 }
-#span4{
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg,transparent,#c66300);
+ #span4{
+     bottom: -100%;
+     left: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(360deg,transparent,#c66300);
 }
-.btn-neon:hover #span4{
-    bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
-}
-
-/*PRODUCTOS*/
-.tituloproducto_choco h1{
-    text-align: center;
-    margin-top:5%;
-    font-family: 'Oleo Script', cursive;
-    font-size: 55px;
-    font-weight: 900;
-    color: #c66300;
-}
-.chocolate_img{ 
-    float: right; 
-    width: 400px;
-    margin-right: 16%;
-    margin-top: 12%;
-    border: 2px solid red;
-}
-.chocolate_text{
-    font-family: serif;
-    margin-top: 12%;
-}
-.tituloproducto_cafe h1{
-    text-align: center;
-    margin-top:10%;
-    font-family: 'Oleo Script', cursive;
-    font-size: 55px;
-    font-weight: 900;
-    color: #c66300;
-}
-.cafe_img{ 
-    float: right; 
-    width: 400px;
-    margin-right: 16%;
-    margin-top: 12%;
-    border: 2px solid red;
-}
-#espacio_img_producto{
-    margin-bottom: 20%;
-}
-.cafe_text{
-    margin-top: 12%;
-    font-family: serif;
-}
-.cafe_text2{
-    margin-top: 12%;
-    padding-left: 22%;
-    font-family: serif;
-    
-}
-.cafe_text2 h6{
-    padding-right: 43%;
-    font-size: 25px;
-}
-.cafe_text2 p{
-    padding-right: 4%;
-    font-size: 20px;
+ .btn-neon:hover #span4{
+     bottom: 100%;
+     transition: 1s;
+     transition-delay: 0.75s;
 }
 
-.chocolate_text2{
-    margin-top: 12%;
-    padding-left: 15%;
-    font-family: serif;
-}
-.chocolate_text2 h6{
-    padding-right: 54%;
-    font-size: 25px;
-}
-.chocolate_text2 p{
-    padding-right: 30%;
-    font-size: 20px;
-}
-.cafe_text2 h5{
-    font-size: 40px;
-    padding-bottom: 20px;
-    font-weight: 600;
-}
-.cafe_text h5{
-    font-size: 40px;
-    padding-bottom: 20px;
-    font-weight: 600;
-}
-.chocolate_text2 h5{
-    font-size: 40px;
-    padding-bottom: 20px;
-    font-weight: 600;
-}
-.chocolate_text h5{
-    font-size: 40px;
-    padding-bottom: 20px;
-    font-weight: 600;
-}
-.cafe_text h6{
-    font-size: 25px;
-}
-.chocolate_text h6{
-    font-size: 25px;
-}
-.chocolate_text p{
-    font-size: 20px;
-}
-.cafe_text P{
-    font-size: 20px;
-}
-.pedir_wsp{
-    border: 2px solid #c66300;
+/* -------------------------------------------------------------- */
+/* ESTILOS PRODUCTOS */
+
+  .tituloproducto_choco h1,
+  .tituloproducto_cafe h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 0 1.5rem;
+    color: #5a3e1b;
+    font-weight: bold;
+  }
+
+  .product-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #fefefe;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+
+  .product-block img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .product-text {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .product-text h5 {
+    font-size: 1.25rem;
+    color: #3d2b1f;
+  }
+
+  .product-text h6 {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+
+  .product-text p {
+    font-size: 1.1rem;
+    color: #000;
+    margin: 0.5rem 0;
+  }
+
+  .product-text a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    background-color: #6b3e26;
+    color: #fff;
+    border-radius: 6px;
     text-decoration: none;
-    padding: 3px;
-    padding-left: 40px;
-    padding-right: 40px;
-    color: black;
-    background: lightgreen;
-    font-family: 'Oleo Script';
-    font-weight: 900;
-    box-shadow: 0px 0px 10px #c66300;
-    border-radius: 7px;
-    font-size: 20px;
-}
-@media screen and (max-width:1035px){
-    .logo_menu_chiquito{
-        margin-left: 30%;
+    transition: background 0.3s ease;
+  }
+
+  .product-text a:hover {
+    background-color: #5a2d1b;
+  }
+
+  @media (max-width: 768px) {
+    .product-block {
+      flex-direction: column;
+      text-align: center;
     }
-   
-}
-@media screen and (max-width:991px){
-    .collapse ul{
-        text-align: center;
-        margin-left: -28%;
-    }
-    .chocolate_img, .cafe_img{
-        width: 290px;
-        margin-right: 35%;
-    }
-    .chocolate_text, .cafe_text{
-        margin-top: 7%;
-    }
-    .chocolate_text h5, .cafe_text h5{
-        margin-left: -23%;
-        font-size: 35px;
-        padding-bottom: 5%;
-    }
-    .chocolate_text h6,.chocolate_text p, .pedir_wsp, .cafe_text h6, .cafe_text p{
-        margin-left: -22%;
-    }
-    #chocoimg2,#espacio_img_producto{
-        margin-right: -7%;
-    }
-    .chocolate_text2 h5, .cafe_text2 h5{
-        margin-left: -41%;
-        font-size: 35px;
-    }
-    .chocolate_text2 h6,.chocolate_text2 p, .cafe_text2 h6,.cafe_text2 p,  #wspboton2, #wspboton3{
-        margin-left: -40%;
-    }
-    .telefono_caja h3, .telefono_caja h5{
-        margin-left: -50%;
-    }
-    .redes_sociales_caja h3 {
-        font-size: 38px;
-    }
-    .redes_sociales_caja ul{
-        margin-left: -10%;
-    }
-    .ubicanos_caja h5{
-        font-size: 22px;
-        margin-right: -31%;
-        margin-left: 56%;
+    .product-text a{
+      margin-bottom: 25px;
     }
 
-}
-@media screen and (max-width:920px) {
-    .telefono_caja h5, .telefono_caja h3{
-        margin-left: -33%;
+    .col-md-6 {
+      width: 100%;
+      padding: 0;
     }
-    .ubicanos_caja h3{
-        padding-left: 35%;
-    }
-    .ubicanos_caja h5{
-     margin-right: -1%;
-    margin-left: 14%;
-    padding-left: 17%;
-}
- }
- @media screen and (max-width:850px) {
-     .telefono_caja h5, .telefono_caja h3{
-        margin-left: -7%;
-    }
-    .ubicanos_caja h3{
-        padding-left: 26%;
-    }
-    .ubicanos_caja h5{
-        padding-left: 0%;
- }
-    
-}
-@media screen and (max-width:820px) {
-    .chocolate_img, .cafe_img{
-        margin-right: 25%;
-}
-}
-@media screen and (max-width:767px) {
-    .chocolate_img, .cafe_img{
-        margin-right: 22%;
-    }
-    .chocolate_text h5, .cafe_text h5{
-        margin-left: 22%;
-    }
-    .chocolate_text h6,.chocolate_text p, .pedir_wsp, .cafe_text h6, .cafe_text p{
-        margin-left: 22%;
-    }
-    #chocoimg2,#espacio_img_producto{   
-        margin-right: 22%;
-        margin-top: -88%;
-    }
-    .chocolate_text2 h5, .cafe_text2 h5{
-        margin-left: 10%;
-        margin-top: 54%;
-    }
-    .chocolate_text2 h6,.chocolate_text2 p, .cafe_text2 h6,.cafe_text2 p,  #wspboton2 {
-        margin-left: 10%;
-    }
-    #caf2{
-        margin-top: 80%;
-        margin-left: 0%;
-    }
-    #espacio_img_producto{
-        margin-top: -106%; 
-    }
-    .cafe_text2 h6,.cafe_text2 p, #wspboton3{
-        margin-left: 0%;
-    }
-    footer{
-        margin-top: 15%;
-    }
-    .telefono_caja h5 {
-        text-align: center;
-    }
-    .telefono_caja h3{  
-        text-align: center;
-    }
-    .redes_sociales_caja h3 {
-        font-size: 32px;
-    }
-    .redes_sociales_caja ul {
-        text-align: center;
-    }
-    .ubicanos_caja h3 {
-        font-size: 30px;
-        text-align: center;
-        padding-right: 22%;
-        margin-top: 10%;
-    }
-    .ubicanos_caja h5 {
-        text-align: center;
-        padding-right: 12%;
-    }   
-}
-@media screen and (max-width:668px) {
-    .telefono_caja h3 {
-        text-align: center;
-        font-size: 37px;
-    }
-    .redes_sociales_caja h3 {
-        font-size: 35px;
-        margin-top: 10%;
-       text-align: center;
-    }
-    .redes_sociales_caja ul {
-       text-align: center;
-    }
-    .ubicanos_caja h3 {
-        font-size: 37px;
-        margin-top: 10%;
-       text-align: center;
-       padding-right: 26%;
-    }
-    .ubicanos_caja h5 {
-        text-align: center;
-        padding-right: 17%;
-        margin-bottom: 12%;
-    }
-    .telefono_caja h5 {
-        
-        font-size: 20px;
-        text-align: center;
-    }
-    .caja_slyder h1 {
-        font-size: 105px;  
-    }
-    .chocolate_text h5, .cafe_text h5 {
-        font-size: 35px;
-    }
-    .chocolate_text h6, .chocolate_text p, .pedir_wsp, .cafe_text h6, .cafe_text p {
-        text-align: left;
-    }
-   
-}
-@media screen and (max-width:530px) {
-    #espacio_img_producto {
-        margin-top: -115%;
-    }
-    .caja_slyder h1 {
+  }
+  @media (max-width: 600px){
+    #product{
         font-size: 90px;
     }
-    
-}
-@media screen and (max-width:414px){
-    .tituloproducto_choco h1 {
-        font-size: 40px; 
-    }
-    .chocolate_img, .cafe_img {
-        margin-right: 13%;
-    }
-    .chocolate_text h5, .cafe_text h5 {
-        margin-left: 13%;
-    }
-    #chocoimg2{
-        margin-right: 13%;
-        margin-top: -108%;
-    }
-    .chocolate_text2 h5, .cafe_text2 h5 {
-        margin-left: 5%;
-        margin-top: 70%;
-    }
-    .tituloproducto_cafe h1 {
-        margin-top: 30%;
-        font-size: 50px;
-    }
-    #espacio_img_producto {
-        margin-top: -135%;
-        margin-right: 13%;
-    }
-    #caf2 {
-        margin-top: 110%;
-        margin-left: 0%;
-    }
-    .elemento_menu {
-        font-size: 16px;
-        padding-right: 46%;
-        margin-left: -16%;
-    }
+  }
+  /* FIN DE ESTILOS PRODUCTOS */
+/* ------------------------------------------------------------------------------ */
 
-    
-}
+/* INICIO ESTILOS CONTACTOS */
+/* ---------------------------------------------------------- */
+  .order-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
 
-@media screen and (max-width:390px){
-    .logo_menu_chiquito {
-        margin-left: 0%;
-        width: 100px;
-    }
-    .caja_slyder h1 {
-        font-size: 74px;
-    }
-    .tituloproducto_choco h1 {
-        font-size: 40px; 
-    }
-    .chocolate_img, .cafe_img {
-        margin-right: 8%;
-    }
-    .chocolate_text h5, .cafe_text h5 {
-        font-size: 30px;
-        margin-left: 15%;
-    }
-    .chocolate_text h6, .chocolate_text p, .pedir_wsp, .cafe_text h6, .cafe_text p {
-        margin-left: 15%;
-    }
-    #chocoimg2{
-        margin-right: 8%;
-        margin-top: -124%;
-    }
-    .chocolate_text2 h5, .cafe_text2 h5 {
-        margin-left: 0%;
-        margin-top: 86%;
-    }
-    .chocolate_text2 h6, .chocolate_text2 p, .cafe_text2 h6, .cafe_text2 p, #wspboton2 {
-        margin-left: 0%;
-    }
-    .tituloproducto_cafe h1 {
-        font-size: 45px;
-        margin-top: 30%;
-    }
-    #espacio_img_producto {
-        margin-top: -155%;
-        margin-right: 10%;
-    }
-    #caf2 {
-        margin-top: 126%;
-        margin-left: 0%;
-    }
-    .elemento_menu {
-        font-size: 17px;
-        margin-left: -65%;
-        padding-left: 0%;
-    }
-}
+  .order-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #3b2f2f;
+  }
 
-/*INDEX*/
-@media screen and (max-width:1199px) {
-    .text_bienvenido{
-        margin-right: 18%;
-        margin-left: -66%;
-    }
-    .mini_bio_bienvenido{
-        margin-left: -66%;
-        margin-right: 27%;
-    }
-    .mini_bio_bienvenido_2{
-        margin-left: -65%;
-        margin-right: 30%;
-    }
-    .btn-neon{
-        margin-left: -60%;
-    }
-    
+  .order-form input,
+  .order-form select,
+  .order-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  .order-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .order-form button:hover {
+    background-color: #1ebc59;
+  }
+
+  /* FIN ESTILOS CONTACTOS */
+  /* ------------------------------------------------------ */
+ .logo_menu_chiquito {
+     max-width: 90px;
+     height: auto;
+     margin-left: 300px;
 }
+ @media (max-width: 991.98px) {
+     .navbar-collapse.show .navbar-nav {
+         display: flex !important;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 15px;
+         padding-left: 0 !important;
+         margin-left: 0 !important;
+    }
+     .navbar-collapse.show .nav-item {
+         text-align: center;
+         width: 100%;
+    }
+     .navbar-collapse.show .nav-link {
+         font-size: 18px;
+         padding: 10px;
+    }
+     .logo_menu_chiquito {
+         margin-left: 0 !important;
+    }
+}
+ @media (max-width: 1300px) {
+     .logo_menu_chiquito {
+         margin-left: 180px;
+    }
+}
+ @media (max-width: 666px) {
+     .caja_slyder h1{
+         font-size: 105px;
+    }
+     .caja_slyder h5{
+         font-size: 25px;
+    }
+}
+ @media screen and (max-width:768px){
+     .chocolate_text h5, .cafe_text h5, .chocolate_text2 h5, .cafe_text2 h5 {
+         text-align: center;
+         font-size: 28px;
+    }
+     .chocolate_text h6, .chocolate_text p, .cafe_text h6, .cafe_text p, .chocolate_text2 h6, .chocolate_text2 p, .cafe_text2 h6, .cafe_text2 p {
+         text-align: center;
+         font-size: 16px;
+    }
+     footer {
+         margin-top: 40px;
+         text-align: center;
+    }
+}
+ @media screen and (max-width:480px){
+     .logo_menu_chiquito {
+         max-width: 90px;
+    }
+     .elemento_menu a {
+         font-size: 16px;
+    }
+     .caja_slyder h1 {
+         font-size: 60px;
+         text-align: center;
+    }
+     .tituloproducto_choco h1, .tituloproducto_cafe h1 {
+         font-size: 32px;
+         text-align: center;
+    }
+     .telefono_caja h3, .telefono_caja h5, .redes_sociales_caja h3, .ubicanos_caja h3, .ubicanos_caja h5 {
+         text-align: center;
+    }
+}
+ @media (max-width: 991.98px) {
+     .centrado-total {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+    }
+     .cajaImg{
+         margin-top: 90px;
+    }
+}
+ 
